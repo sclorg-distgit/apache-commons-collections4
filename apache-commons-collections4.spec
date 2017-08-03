@@ -4,7 +4,7 @@
 Summary:        Extension of the Java Collections Framework
 Name:           %{?scl_prefix}apache-commons-collections4
 Version:        4.0
-Release:        7.1%{?dist}
+Release:        7.2%{?dist}
 License:        ASL 2.0
 URL:            http://commons.apache.org/proper/commons-collections/
 BuildArch:      noarch
@@ -45,6 +45,9 @@ This package provides %{summary}.
 %doc LICENSE.txt NOTICE.txt
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 4.0-7.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 4.0-7.1
 - Automated package import and SCL-ization
 
